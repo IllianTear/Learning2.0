@@ -24,3 +24,4 @@ print(5 * 6 > 4 * 7)
 # A floating number determines how many decimals are used in a number
 print("%.2f" % 30)
 # This would be thirty using floating numbers
+# This is all I had to do for this assignment
