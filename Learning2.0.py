@@ -16,3 +16,8 @@ print("Now, I will count the eggs:")
 print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)
 print("Is it true that 3 + 2 < 5 - 7?")
 print(3 + 2 < 5 - 7)
+
+# This is the section I did myself
+# Is the area of a 5x6 object larger than the area of a 4x7 object?
+print("Is 5 * 6 > 4 * 7 true?")
+print(5 * 6 > 4 * 7)
