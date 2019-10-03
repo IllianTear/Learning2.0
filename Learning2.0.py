@@ -27,10 +27,10 @@ print("%.2f" % 30)
 # This is all I had to do for this assignment
 
 # variables
-cars = 100
+cars = 80
 space_in_a_car = 4.0
 drivers = 30
-passengers = 90
+passengers = 115
 cars_not_driven = cars - drivers
 cars_driven = drivers
 carpool_capacity = cars_driven * space_in_a_car
@@ -42,3 +42,18 @@ print("There will be", cars_not_driven,"empty cars today.")
 print("We can trasport", carpool_capacity,"people today.")
 print("We have",passengers,"to carpool today.")
 print("We need to put about",average_passengers_per_car,"in each car.")
+
+# More variables
+
+myName = "Illian Tear"
+myAge = 46
+myHeight = 69 # inches
+myEyes = "Green"
+myTeeth = "White"
+myHair = "A lot"
+
+print("Let's talk about %s." % myName)
+print("He's %d inches tall." % myHeight)
+print("He's got %s eyes and %s hair." % (myEyes, myHair))
+print("His teeth \tare usually %s depending \n on the coffee." % myTeeth)
+print("if I add %d and %d, I get %d." % (myAge, myHeight, myAge + myHeight))
